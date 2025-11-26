@@ -1,7 +1,7 @@
 import { NextRequest } from 'next/server';
 
 export async function POST(request: NextRequest) {
-  const url = 'https://script.google.com/macros/s/AKfycbw__67Dv6K7Wv9GA8Q50aslh6LA3_MaAk47lALSDHU45eKkppeG8z2nQWukQeQXMRTZ/exec';
+  const url = 'https://script.google.com/macros/s/AKfycbye7ro1idkVguqau2vBPx1LeZ4L5pbGgPPSiCPox_pOVp3EsiXadMkthbUmNbiOyn64/exec';
 
   const formData = await request.formData();
   const params = new URLSearchParams();
