@@ -175,10 +175,10 @@ export function SiteHeader() {
   return (
     <>
       {/* Call Us Banner for Mobile */}
-      <div className="md:hidden bg-green-600 text-white text-center py-2 px-4">
+      <div className="md:hidden bg-gray-800 text-white text-center py-2 px-4">
         <button 
           onClick={handleCall}
-          className="flex items-center justify-center gap-2 w-full text-sm font-medium hover:bg-green-700 py-1 px-2 rounded transition-colors"
+          className="flex items-center justify-center gap-2 w-full text-sm font-medium hover:bg-gray-900 py-1 px-2 rounded transition-colors"
         >
           <Phone className="h-4 w-4" />
           {phoneNumber}
@@ -365,7 +365,7 @@ export function SiteHeader() {
                   <Button 
                     onClick={handleCall}
                     variant="outline" 
-                    className="w-full mb-3 text-green-600 border-green-600 hover:bg-green-50"
+                    className="w-full mb-3 text-gray-700 border-gray-300 hover:bg-gray-50"
                   >
                     <Phone className="h-4 w-4 mr-2" />
                     {phoneNumber}
@@ -488,7 +488,7 @@ export function SiteHeader() {
           <Button 
             onClick={handleCall}
             variant="ghost" 
-            className="hidden md:flex items-center gap-2 text-sm font-medium text-green-600 hover:text-green-700 hover:bg-green-50 h-auto px-3 py-2"
+            className="hidden md:flex items-center gap-2 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 h-auto px-3 py-2"
           >
             <Phone className="h-4 w-4" />
             {phoneNumber}

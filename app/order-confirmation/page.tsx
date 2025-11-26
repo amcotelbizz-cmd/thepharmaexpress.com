@@ -63,8 +63,8 @@ export default function OrderConfirmationPage() {
       <div className="container mx-auto px-4 max-w-3xl">
         <div className="bg-white rounded-xl shadow-sm p-6 md:p-10 text-center">
           <div className="flex justify-center mb-6">
-            <div className="h-16 w-16 md:h-20 md:w-20 rounded-full bg-green-100 flex items-center justify-center">
-              <CheckCircle className="h-10 w-10 md:h-12 md:w-12 text-green-600" />
+            <div className="h-16 w-16 md:h-20 md:w-20 rounded-full bg-gray-100 flex items-center justify-center">
+              <CheckCircle className="h-10 w-10 md:h-12 md:w-12 text-gray-700" />
             </div>
           </div>
 

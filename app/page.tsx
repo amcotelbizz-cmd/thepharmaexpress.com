@@ -226,35 +226,35 @@ export default function Home() {
             </div>
             <div className="rounded-xl overflow-hidden shadow-lg bg-white border">
               <div className="grid grid-cols-1 gap-y-4 p-4">
-                <div className="p-6 bg-blue-50 rounded-lg border border-blue-100 hover:shadow-md transition-shadow">
-                  <h4 className="font-semibold text-blue-700 text-lg text-center">Sildenafil</h4>
+                <div className="p-6 bg-gray-100 rounded-lg border border-gray-300 hover:shadow-md transition-shadow">
+                  <h4 className="font-semibold text-gray-900 text-lg text-center">Sildenafil</h4>
                   <div className="text-center mt-3">
                     <p className="text-gray-700 font-medium">25mg - 200mg</p>
                     <p className="text-gray-600 mt-2">Works for 4-6 hours</p>
-                    <div className="mt-3 pt-2 border-t border-blue-100">
-                      <Link href="/categories/sildenafil" className="text-blue-600 hover:underline text-sm font-medium">View Options →</Link>
+                    <div className="mt-3 pt-2 border-t border-gray-300">
+                      <Link href="/categories/sildenafil" className="text-gray-800 hover:underline text-sm font-medium">View Options →</Link>
                     </div>
                   </div>
                 </div>
                 
-                <div className="p-6 bg-green-50 rounded-lg border border-green-100 hover:shadow-md transition-shadow">
-                  <h4 className="font-semibold text-green-700 text-lg text-center">Tadalafil</h4>
+                <div className="p-6 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+                  <h4 className="font-semibold text-gray-800 text-lg text-center">Tadalafil</h4>
                   <div className="text-center mt-3">
                     <p className="text-gray-700 font-medium">20mg - 80mg</p>
                     <p className="text-gray-600 mt-2">Long-lasting - up to 36 hours</p>
-                    <div className="mt-3 pt-2 border-t border-green-100">
-                      <Link href="/categories/tadalafil" className="text-green-600 hover:underline text-sm font-medium">View Options →</Link>
+                    <div className="mt-3 pt-2 border-t border-gray-200">
+                      <Link href="/categories/tadalafil" className="text-gray-700 hover:underline text-sm font-medium">View Options →</Link>
                     </div>
                   </div>
                 </div>
                 
-                <div className="p-6 bg-purple-50 rounded-lg border border-purple-100 hover:shadow-md transition-shadow">
-                  <h4 className="font-semibold text-purple-700 text-lg text-center">Vardenafil</h4>
+                <div className="p-6 bg-gray-200 rounded-lg border border-gray-400 hover:shadow-md transition-shadow">
+                  <h4 className="font-semibold text-gray-900 text-lg text-center">Vardenafil</h4>
                   <div className="text-center mt-3">
                     <p className="text-gray-700 font-medium">20mg - 60mg</p>
                     <p className="text-gray-600 mt-2">Rapid onset of action</p>
-                    <div className="mt-3 pt-2 border-t border-purple-100">
-                      <Link href="/categories/vardenafil" className="text-purple-600 hover:underline text-sm font-medium">View Options →</Link>
+                    <div className="mt-3 pt-2 border-t border-gray-400">
+                      <Link href="/categories/vardenafil" className="text-gray-800 hover:underline text-sm font-medium">View Options →</Link>
                     </div>
                   </div>
                 </div>

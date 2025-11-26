@@ -196,7 +196,7 @@ export default function QuickViewModal({ product, onClose, onProceedToCheckout, 
                       "30-day money-back guarantee",
                     ].map((feature, i) => (
                       <li key={i} className="flex items-start">
-                        <Check className="h-3 w-3 md:h-4 md:w-4 text-green-500 mr-1 md:mr-2 mt-0.5" />
+                        <Check className="h-3 w-3 md:h-4 md:w-4 text-gray-700 mr-1 md:mr-2 mt-0.5" />
                         <span className="text-xs md:text-sm text-gray-600">{feature}</span>
                       </li>
                     ))}
