@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# Important pages
+Allow: /
+Allow: /categories
+Allow: /categories/*
+Allow: /products
+Allow: /products/*
+Allow: /contact
+Allow: /about
+
+# Block admin and private areas
+Disallow: /admin
+Disallow: /api
+Disallow: /checkout
+Disallow: /cart
+Disallow: /account
+
+# Block duplicate content
+Disallow: /*?*
+Disallow: /*#*
+
+# Sitemap location
+Sitemap: https://thepharmaexpress.com/sitemap.xml
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
